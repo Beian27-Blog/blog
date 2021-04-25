@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blog.mapper.DescriptionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.blog.entity.Description">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="constellation" property="constellation" />
+        <result column="experience" property="experience" />
+        <result column="sentence" property="sentence" />
+        <result column="idol" property="idol" />
+        <result column="character1" property="character1" />
+        <result column="contact" property="contact" />
+        <result column="information" property="information" />
+        <result column="language" property="language" />
+    </resultMap>
+
+</mapper>
